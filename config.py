@@ -30,9 +30,9 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "14356452"))
+API_HASH = environ.get("API_HASH", "cac21249a0c6373a1b742afb8dbc9cb7")
+ADMINS = int(environ.get("ADMINS", "5720092781"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Kc_File_Store_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -79,7 +79,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001806174534'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
